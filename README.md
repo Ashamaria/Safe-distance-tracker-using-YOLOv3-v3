@@ -1,9 +1,9 @@
 # Social-Distancing-in-Real-Time
 Social distancing in Real-Time using live video stream/IP camera in OpenCV.
 
-> This is an improvement/modification to (https://www.pyimagesearch.com/2020/06/01/opencv-social-distancing-detector/).
+> 
 
-> Please refer to the added [Features](#features).
+>
 
 Output       |  Output
 :-------------------------:|:-------------------------:
@@ -44,12 +44,7 @@ pip install -r requirements.txt
 
 - Note that you need to build OpenCV with CUDA (for an NVIDIA GPU) support first:
 
-> Click [**here**](https://jamesbowley.co.uk/accelerate-opencv-4-2-0-build-with-cuda-and-python-bindings/) for build instructions on Windows.
-
-> This tutorial also might help. Click [**here**](https://www.youtube.com/watch?v=TT3_dlPL4vo&list=WL&index=108&t=0s).
-
-- Download the weights file from [**here**](https://drive.google.com/file/d/1O2zmGIIHLX8SGs24W7mjRyFKvE_CSY8n/view?usp=sharing) and place it in the 'yolo' folder.
-
+> 
 - To run inference on a test video file, head into the directory/use the command:
 ```
 python run.py -i mylib/videos/test.mp4
@@ -57,8 +52,7 @@ python run.py -i mylib/videos/test.mp4
 - To run inference on an IP camera, Setup your camera url in 'mylib/config.py':
 
 ```
-# Enter the ip camera url (e.g., url = 'http://191.138.0.100:8040/video')
-url = ''
+# Enter the ip camera url 
 ```
 - Then run with the command:
 
@@ -99,27 +93,3 @@ set ```Thread = True``` in the config.
 - YOLO original paper: https://arxiv.org/abs/1506.02640
 - YOLO TensorFlow implementation (darkflow): https://github.com/thtrieu/darkflow
 
-***Optional:***
-- More theory: https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
-- Other trained model weights from official doc: https://pjreddie.com/darknet/yolo/
-
----
-
-## Thanks for the read & have fun!
-
-> To get started/contribute quickly (optional) ...
-
-- **Option 1**
-    - 🍴 Fork this repo and pull request!
-
-- **Option 2**
-    - 👯 Clone this repo:
-    ```
-    $ git clone https://github.com/saimj7/Social-Distancing-Detection-in-Real-Time.git
-    ```
-
-- **Roll it!**
-
----
-
-saimj7/ 02-11-2020 © <a href="http://saimj7.github.io" target="_blank">Sai_Mj</a>.
